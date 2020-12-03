@@ -16,6 +16,7 @@ fetch(`https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=today&sign=${name}`, {
 .then(response => response.json())
 .then(sign => {
 	console.log(sign)
+	
 	displayName(sign);
 	displayDateInfo(sign);
 	displayMood(sign);
@@ -24,7 +25,7 @@ fetch(`https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=today&sign=${name}`, {
 	displayCompatability(sign);
 	displayLuckyTime(sign);
 	displayLuckyNumber(sign)
-	
+
 })
 .catch(err => {
 	console.error(err);
@@ -42,13 +43,13 @@ function displayDateInfo(sign){
 	$zodiacCard.append($signDateRange)
 
 	const $signCurrentDate = document.createElement('p')
-	$signCurrentDate.textContent = `Today's Date: ${sign.current_date}`
+	$signCurrentDate.textContent = `Date: ${sign.current_date}`
 	$zodiacCard.append($signCurrentDate)
 }
 
 function displayMood(sign) {
 	const $signMood = document.createElement('p')
-	$signMood.textContent = `Today's Mood: ${sign.mood}`
+	$signMood.textContent = `Mood: ${sign.mood}`
 	$zodiacCard.append($signMood)
 }
 
@@ -72,12 +73,12 @@ function displayCompatability(sign){
 
 function displayLuckyTime(sign){
 	const $signLuckyTime = document.createElement('p')
-	$signLuckyTime.textContent = `Today's Lucky Time: ${sign.lucky_time}`
+	$signLuckyTime.textContent = `Lucky Time: ${sign.lucky_time}`
 	$zodiacCard.append($signLuckyTime)
 }
 
 function displayLuckyNumber(sign){
 	const $signLuckyNumber = document.createElement('p')
-	$signLuckyNumber.textContent = `Today's Lucky Number: ${sign.lucky_number}`
+	$signLuckyNumber.textContent = `Lucky Number: ${sign.lucky_number}`
 	$zodiacCard.append($signLuckyNumber)
 }
