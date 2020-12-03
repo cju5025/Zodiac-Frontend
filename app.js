@@ -10,3 +10,18 @@
 // .catch(err => {
 // 	console.error(err);
 // });
+
+// const $p = document.querySelectorAll('.zodiac-name')
+// console.log($p.textContent)
+
+const $main = document.querySelector('main')
+
+fetch("http://localhost:3000/zodiacs")
+    .then(response => response.json())
+    .then(zodiacs => zodiacs.forEach(zodiac => {
+        const $zodiacName = document.createElement('p')
+        $zodiacName.innerHTML = `<a href="show-zodiac.html?name=${zodiac.name}">${zodiac.name}</a>` 
+
+        $main.append($zodiacName)
+    }))
+        
