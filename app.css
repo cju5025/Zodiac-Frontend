@@ -50,6 +50,8 @@ table {
 
 /* END MEYER RESET */
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Sansita+Swashed&display=swap');
+
 
 html {
     height: 100%;
@@ -60,14 +62,17 @@ body {
 }
 
 header {
-    height: 10%;
-    background-image: url();
+    height: 20%;
+    background-image: url(https://i.ibb.co/6DW6Y6X/Space-Museum-0.png);
+    color: antiquewhite;
+    font-family: 'Sansita Swashed', cursive;
+
 }
 
 header > h1 {
     margin-left: 2rem;
-    padding-top: 1rem;
-    font-size: 25px;
+    padding-top: 7rem;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -112,70 +117,70 @@ img {
     }
 
     .circle .tick:nth-child(1) {
-        transform: rotate(0deg) translate(100px);
+        transform: rotate(0deg) ;
     }
     .circle .tick:nth-child(2) {
-        transform: rotate(30deg) translate(100px);
+        transform: rotate(30deg) ;
     }
     .circle .tick:nth-child(2) img {
         transform: rotate(-30deg);
     }
     .circle .tick:nth-child(3) {
-        transform: rotate(60deg) translate(100px);
+        transform: rotate(60deg) ;
     }
     .circle .tick:nth-child(3) img {
         transform: rotate(-60deg);
     }
     .circle .tick:nth-child(4) {
-        transform: rotate(90deg) translate(100px);
+        transform: rotate(90deg) ;
     }
     .circle .tick:nth-child(4) img {
         transform: rotate(-90deg);
     }
     .circle .tick:nth-child(5) {
-        transform: rotate(120deg) translate(100px);
+        transform: rotate(120deg) ;
     }
     .circle .tick:nth-child(5) img {
         transform: rotate(-120deg);
     }
     .circle .tick:nth-child(6) {
-        transform: rotate(150deg) translate(100px);
+        transform: rotate(150deg) ;
     }
     .circle .tick:nth-child(6) img {
         transform: rotate(-150deg);
     }
     .circle .tick:nth-child(7) {
-        transform: rotate(180deg) translate(100px);
+        transform: rotate(180deg) ;
     }
     .circle .tick:nth-child(7) img {
         transform: rotate(-180deg);
     }
     .circle .tick:nth-child(8) {
-        transform: rotate(210deg) translate(100px);
+        transform: rotate(210deg) ;
     }
     .circle .tick:nth-child(8) img {
         transform: rotate(-210deg);
     }
     .circle .tick:nth-child(9) {
-        transform: rotate(240deg) translate(100px);
+        transform: rotate(240deg) ;
     }
     .circle .tick:nth-child(9) img {
         transform: rotate(-240deg);
     }
     .circle .tick:nth-child(10) {
-        transform: rotate(270deg) translate(100px);
+        transform: rotate(270deg) ;
     }
     .circle .tick:nth-child(10) img {
         transform: rotate(-270deg);
     }
     .circle .tick:nth-child(11) {
-        transform: rotate(300deg) translate(100px);
+        transform: rotate(300deg) ;
     }
     .circle .tick:nth-child(11) img {
         transform: rotate(-300deg);
     }
     .circle .tick:nth-child(12) {
-        transform: rotate(330deg) translate(100px);
+        transform: rotate(330deg) ;
     }
     .circle .tick:nth-child(12) img {
         transform: rotate(-330deg);
