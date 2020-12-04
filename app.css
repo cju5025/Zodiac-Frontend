@@ -1,15 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END MEYER RESET */
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    height: 10%;
+    background-image: url();
+}
+
+header > h1 {
+    margin-left: 2rem;
+    padding-top: 1rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.circle {
+    height: 75%;
+    margin-top: 5rem;
+    margin-left: 25rem;
+    display: flex;
+    position: absolute;
+}
+
+#signs div > p > a {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 img {
     width: 80px;
     height: auto;
 }
 
-div {
-    display: flex;
-    flex-direction: column;
-}
+/* .circle {
+    width: 200px;
+    height: 200px;
+    background: pink;
+    border-radius: 50%;
+    } */
 
-#signs {
-    display: flex;
-    flex-wrap: wrap;
-}
+    .circle .tick {
+        width: 650px;
+        height: 10px;
+        /* background: #000; */
+        position: absolute;
+        border-radius: 50%;
+        left: 50%;
+        top: 50%;
+        margin-left: -5px;
+        margin-top: -5px;
+    }
+
+    .circle .tick:nth-child(1) {
+        transform: rotate(0deg) translate(100px);
+    }
+    .circle .tick:nth-child(2) {
+        transform: rotate(30deg) translate(100px);
+    }
+    .circle .tick:nth-child(2) img {
+        transform: rotate(-30deg);
+    }
+    .circle .tick:nth-child(3) {
+        transform: rotate(60deg) translate(100px);
+    }
+    .circle .tick:nth-child(3) img {
+        transform: rotate(-60deg);
+    }
+    .circle .tick:nth-child(4) {
+        transform: rotate(90deg) translate(100px);
+    }
+    .circle .tick:nth-child(4) img {
+        transform: rotate(-90deg);
+    }
+    .circle .tick:nth-child(5) {
+        transform: rotate(120deg) translate(100px);
+    }
+    .circle .tick:nth-child(5) img {
+        transform: rotate(-120deg);
+    }
+    .circle .tick:nth-child(6) {
+        transform: rotate(150deg) translate(100px);
+    }
+    .circle .tick:nth-child(6) img {
+        transform: rotate(-150deg);
+    }
+    .circle .tick:nth-child(7) {
+        transform: rotate(180deg) translate(100px);
+    }
+    .circle .tick:nth-child(7) img {
+        transform: rotate(-180deg);
+    }
+    .circle .tick:nth-child(8) {
+        transform: rotate(210deg) translate(100px);
+    }
+    .circle .tick:nth-child(8) img {
+        transform: rotate(-210deg);
+    }
+    .circle .tick:nth-child(9) {
+        transform: rotate(240deg) translate(100px);
+    }
+    .circle .tick:nth-child(9) img {
+        transform: rotate(-240deg);
+    }
+    .circle .tick:nth-child(10) {
+        transform: rotate(270deg) translate(100px);
+    }
+    .circle .tick:nth-child(10) img {
+        transform: rotate(-270deg);
+    }
+    .circle .tick:nth-child(11) {
+        transform: rotate(300deg) translate(100px);
+    }
+    .circle .tick:nth-child(11) img {
+        transform: rotate(-300deg);
+    }
+    .circle .tick:nth-child(12) {
+        transform: rotate(330deg) translate(100px);
+    }
+    .circle .tick:nth-child(12) img {
+        transform: rotate(-330deg);
+    }
