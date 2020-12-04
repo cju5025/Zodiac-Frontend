@@ -59,6 +59,7 @@ html {
 
 body {
     height: 100%;
+    /* background-color: lemonchiffon; */
 }
 
 header {
@@ -71,7 +72,7 @@ header {
 
 header > h1 {
     margin-left: 2rem;
-    padding-top: 7rem;
+    padding-top: 5rem;
     font-size: 70px;
     text-align: center;
 }
@@ -95,8 +96,12 @@ header > h1 {
 img {
     width: 80px;
     height: auto;
+    transition: 0.3s all ease-in-out;
 }
 
+.mouseover {
+    width: 100px;
+}
 /* .circle {
     width: 200px;
     height: 200px;
@@ -184,4 +189,13 @@ img {
     }
     .circle .tick:nth-child(12) img {
         transform: rotate(-330deg);
+    }
+
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
