@@ -15,7 +15,7 @@ function displayZodiac(zodiac){
         $signCard.className = "tick"
         
         const $zodiacImage = document.createElement('img')
-        
+
         $zodiacImage.src = zodiac.image
         $zodiacImage.alt = zodiac.name
         $zodiacImage.title = zodiac.name
@@ -27,6 +27,10 @@ function displayZodiac(zodiac){
         $signSection.append($signCard)
         $signCard.append($zodiacLink)
 
+        $zodiacImage.addEventListener('mouseover', mouseoverEvent)
+        $zodiacImage.addEventListener('mouseout', mouseoverEvent)
 
+        function mouseoverEvent() {
+            $zodiacImage.classList.toggle('mouseover')
+        }
 }
-        
