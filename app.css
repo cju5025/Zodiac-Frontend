@@ -59,23 +59,9 @@ html {
 
 body {
     height: 100%;
+    font-family: 'Sansita Swashed', cursive;
     /* background-color: lemonchiffon; */
 }
-
-header {
-    height: 20%;
-    background-image: url(https://i.ibb.co/6DW6Y6X/Space-Museum-0.png);
-    color: antiquewhite;
-    font-family: 'Sansita Swashed', cursive;
-
-}
-
-/* header > h1 {
-    margin-left: 2rem;
-    padding-top: 5rem;
-    font-size: 70px;
-    text-align: center;
-} */
 
 .zodiac-info {
     font-weight: 900;
@@ -99,7 +85,7 @@ header {
 .circle {
     height: 75%;
     margin-top: 5rem;
-    /* margin-left: 2rem; */
+    margin-right: 10rem;
     display: flex;
     position: absolute;
 }
@@ -120,12 +106,6 @@ img {
 .mouseover {
     width: 100px;
 }
-/* .circle {
-    width: 200px;
-    height: 200px;
-    background: pink;
-    border-radius: 50%;
-    } */
 
     .circle .tick {
         width: 650px;
