@@ -66,6 +66,7 @@ function displayZodiac(zodiac){
         });
 
         function displayName(sign){
+            $zodiacCard.innerHTML= ""
             const $signName = document.createElement('h1')
             $signName.textContent = zodiac.name 
             $zodiacCard.append($signName)
