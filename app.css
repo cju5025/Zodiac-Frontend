@@ -298,8 +298,16 @@ img {
         transform: rotate(-330deg);
     }
 
-    audio {
-        position: fixed;
-        bottom: 0;
-        height: 30px
+
+ 
+ audio, audio::-webkit-media-controls-panel,
+ video::-webkit-media-controls-panel {
+    background-color: rgb(156, 51, 201);
+
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+    cursor: pointer;
 }
