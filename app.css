@@ -51,7 +51,7 @@ table {
 /* END MEYER RESET */
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Sansita+Swashed&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 html {
     height: 100%;
@@ -63,13 +63,78 @@ body {
     /* background-color: lemonchiffon; */
 }
 
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .zodiac-info {
     font-weight: 900;
     color: azure;
     margin-top: 8rem;
     margin-left: 44rem;
     width: 15rem;
+
+    /* animation transition */
+
+    animation: fadeIn ease 10s;
+    animation-duration: 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
 }
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+
+/* animation end */
 
 .horoscope {
     display: flex;
@@ -78,8 +143,27 @@ body {
 
 .zodiac-info > h1 {
     font-size: 50px;
+    margin-bottom: 1rem;
     color: bisque;
+    text-shadow: 
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
+
+.zodiac-info > p {
+    margin-bottom: .7rem;
+    font-family:'Lora', serif ;
+    text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 
 
 .circle {
@@ -189,11 +273,4 @@ img {
         transform: rotate(-330deg);
     }
 
-    video {
-        object-fit: cover;
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
+    
