@@ -77,13 +77,29 @@ video {
 header {
     margin-top: 8rem;
     margin-left: 44rem;
-    width: 18rem;
+    width: 100%;
 
     
 }
 
 input {
-    margin-left: 1rem;
+    margin-left: 4rem;
+    color: rgb(239, 239, 247);
+    background-image: linear-gradient(rgb(68, 47, 173), rgb(123, 47, 173)) ;
+    opacity: .8;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 7px;
+    font-family: "Lora", "sans-serif";
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 5px  rgb(219, 216, 219);
+    text-shadow: 
+    /* 3px 3px 0 #000, */
+    -1px -1px 0 rgb(85, 78, 78),  
+    1px -1px 0 rgb(85, 78, 78) ,
+    -1px 1px 0 rgb(85, 78, 78),
+    1px 1px 0 rgb(85, 78, 78);
 }
 
 
