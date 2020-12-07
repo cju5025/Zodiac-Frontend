@@ -71,7 +71,22 @@ video {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: -1;
 }
+
+header {
+    margin-top: 8rem;
+    margin-left: 44rem;
+    width: 18rem;
+
+    
+}
+
+input {
+    margin-left: 1rem;
+}
+
+
 
 .zodiac-info {
     font-weight: 900;
@@ -82,8 +97,8 @@ video {
 
     /* animation transition */
 
-    animation: fadeIn ease 10s;
-    animation-duration: 10s;
+    animation: fadeIn ease 5s;
+    animation-duration: 5s;
   -webkit-animation: fadeIn ease 10s;
   -moz-animation: fadeIn ease 10s;
   -o-animation: fadeIn ease 10s;
