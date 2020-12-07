@@ -75,23 +75,22 @@ video {
 }
 
 header {
-    margin-top: 8rem;
-    margin-left: 44rem;
+    margin-top: 2rem;
+    margin-left: 15rem;
     width: 100%;
-
-    
 }
 
 input {
+    margin-right: 17rem;
     margin-left: 4rem;
     color: rgb(239, 239, 247);
     background-image: linear-gradient(rgb(68, 47, 173), rgb(123, 47, 173)) ;
     opacity: .8;
-    height: 3rem;
-    width: 8rem;
+    height: 2rem;
+    width: 7rem;
     border-radius: 7px;
     font-family: "Lora", "sans-serif";
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     box-shadow: 5px 5px  rgb(219, 216, 219);
     text-shadow: 
@@ -102,65 +101,82 @@ input {
     1px 1px 0 rgb(85, 78, 78);
 }
 
+input[type="button" i] {
+    appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    color: -internal-light-dark(black, white);
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
 
 
 .zodiac-info {
     font-weight: 900;
     color: azure;
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-left: 44rem;
-    width: 15rem;
+    width: 18rem;
 
     /* animation transition */
 
     animation: fadeIn ease 5s;
     animation-duration: 5s;
-  -webkit-animation: fadeIn ease 10s;
-  -moz-animation: fadeIn ease 10s;
-  -o-animation: fadeIn ease 10s;
-  -ms-animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
 }
 @keyframes fadeIn {
-  0% {
+    0% {
     opacity:0;
-  }
-  100% {
+    }
+    100% {
     opacity:1;
-  }
+    }
 }
 
 @-moz-keyframes fadeIn {
-  0% {
+    0% {
     opacity:0;
-  }
-  100% {
+    }
+    100% {
     opacity:1;
-  }
+    }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {
+    0% {
     opacity:0;
-  }
-  100% {
+    }
+    100% {
     opacity:1;
-  }
+    }
 }
 
 @-o-keyframes fadeIn {
-  0% {
+    0% {
     opacity:0;
-  }
-  100% {
+    }
+    100% {
     opacity:1;
-  }
+    }
 }
 
 @-ms-keyframes fadeIn {
-  0% {
+    0% {
     opacity:0;
-  }
-  100% {
+    }
+    100% {
     opacity:1;
 }
 }
@@ -199,22 +215,23 @@ input {
 
 .circle {
     height: 75%;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-right: 10rem;
     display: flex;
     position: absolute;
 }
 
-#signs div > p > a {
+/* #signs div > p > a {
     color: rgb(0, 0, 0);
     cursor: pointer;
     text-decoration: none;
-}
+} */
 
 
 img {
     width: 80px;
     height: auto;
+    cursor: pointer;
     transition: 0.3s all ease-in-out;
 }
 
