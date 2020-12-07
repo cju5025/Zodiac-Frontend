@@ -81,6 +81,8 @@ header {
 }
 
 input {
+    position: relative;
+    cursor: pointer;
     margin-right: 17rem;
     margin-left: 4rem;
     color: rgb(239, 239, 247);
@@ -100,25 +102,6 @@ input {
     -1px 1px 0 rgb(85, 78, 78),
     1px 1px 0 rgb(85, 78, 78);
 }
-
-input[type="button" i] {
-    appearance: push-button;
-    user-select: none;
-    white-space: pre;
-    align-items: flex-start;
-    text-align: center;
-    cursor: pointer;
-    color: -internal-light-dark(black, white);
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-    box-sizing: border-box;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-}
-
-
 
 .zodiac-info {
     font-weight: 900;
