@@ -39,8 +39,40 @@ function displayZodiac(zodiac){
 
     $zodiacImage.addEventListener('click', clickEvent)
 
+    let url = `https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=today&sign=${zodiac.name}`
+
+    const $yesterday = document.querySelector('#yesterday')
+
+    $yesterday.addEventListener('click', yesterdayDisplay)
+
+    function yesterdayDisplay(){
+        url = `https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=yesterday&sign=${zodiac.name}`
+        $zodiacCard.innerHTML = ""
+    }
+
+    const $today = document.querySelector('#today')
+
+    $today.addEventListener('click', todayDisplay)
+
+    function todayDisplay(){
+        url = `https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=today&sign=${zodiac.name}`
+        $zodiacCard.innerHTML = ""
+    }
+
+    const $tomorrow = document.querySelector('#tomorrow')
+
+    $tomorrow.addEventListener('click', tomorrowDisplay)
+
+    
+
+    function tomorrowDisplay(){
+        url = `https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=tomorrow&sign=${zodiac.name}`
+        $zodiacCard.innerHTML = ""
+    }
+
+   
     function clickEvent(){
-        fetch(`https://sameer-kumar-aztro-v1.p.rapidapi.com/?day=today&sign=${zodiac.name}`, {
+        fetch(url, {
         "method": "POST",
         "headers": {
             "x-rapidapi-key": "bbad202a72msh4a869d328b03672p1e0647jsnf0b3ca6028a0",
