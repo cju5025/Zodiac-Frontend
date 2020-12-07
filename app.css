@@ -114,12 +114,12 @@ input {
 
     /* animation transition */
 
-    animation: fadeIn ease 5s;
-    animation-duration: 5s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -ms-animation: fadeIn ease 10s;
+    animation: fadeIn ease 20s;
+    animation-duration: 50s;
+    -webkit-animation: fadeIn ease 15s;
+    -moz-animation: fadeIn ease 15s;
+    -o-animation: fadeIn ease 15s;
+    -ms-animation: fadeIn ease 15s;
 }
 
 
@@ -297,3 +297,9 @@ img {
     .circle .tick:nth-child(12) img {
         transform: rotate(-330deg);
     }
+
+    audio {
+        position: fixed;
+        bottom: 0;
+        height: 30px
+}
