@@ -55,12 +55,13 @@ table {
 
 html {
     height: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 
 body {
     height: 100%;
     font-family: 'Sansita Swashed', cursive;
-    /* background-color: lemonchiffon; */
 }
 
 
@@ -78,6 +79,7 @@ header {
     margin-top: 2rem;
     margin-left: 15rem;
     width: 100%;
+    max-width: 100%;
 }
 
 input {
@@ -119,6 +121,8 @@ input {
     -o-animation: fadeIn ease 10s;
     -ms-animation: fadeIn ease 10s;
 }
+
+
 @keyframes fadeIn {
     0% {
     opacity:0;
@@ -194,8 +198,6 @@ input {
     1px 1px 0 #000;
 }
 
-
-
 .circle {
     height: 75%;
     margin-top: 4rem;
@@ -203,13 +205,6 @@ input {
     display: flex;
     position: absolute;
 }
-
-/* #signs div > p > a {
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    text-decoration: none;
-} */
-
 
 img {
     width: 80px;
@@ -225,7 +220,6 @@ img {
     .circle .tick {
         width: 650px;
         height: 10px;
-        /* background: #000; */
         position: absolute;
         border-radius: 50%;
         left: 50%;
@@ -303,5 +297,3 @@ img {
     .circle .tick:nth-child(12) img {
         transform: rotate(-330deg);
     }
-
-    
