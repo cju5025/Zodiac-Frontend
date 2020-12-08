@@ -53,6 +53,10 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Sansita+Swashed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
     width: 100%;
@@ -76,17 +80,17 @@ video {
 }
 
 header {
-    margin-top: 2rem;
-    margin-left: 15rem;
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
     max-width: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 input {
-    position: relative;
     cursor: pointer;
-    margin-right: 17rem;
-    margin-left: 4rem;
     color: rgb(239, 239, 247);
     background-image: linear-gradient(rgb(68, 47, 173), rgb(123, 47, 173)) ;
     opacity: .8;
@@ -105,15 +109,17 @@ input {
     1px 1px 0 rgb(85, 78, 78);
 }
 
-.zodiac-info {
+.zodiac-info{
     font-weight: 900;
     color: azure;
-    margin-top: 6rem;
-    margin-left: 44rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
     width: 18rem;
+}
 
     /* animation transition */
-
+.zodiac-info {
     animation: fadeIn ease 20s;
     animation-duration: 50s;
     -webkit-animation: fadeIn ease 15s;
@@ -168,6 +174,7 @@ input {
 }
 }
 
+
 /* animation end */
 
 .horoscope {
@@ -198,13 +205,13 @@ input {
     1px 1px 0 #000;
 }
 
-.circle {
+/* .circle {
     height: 75%;
     margin-top: 4rem;
     margin-right: 10rem;
     display: flex;
     position: absolute;
-}
+} */
 
 img {
     width: 80px;
@@ -218,96 +225,100 @@ img {
 }
 
     .circle .tick {
-        width: 650px;
+        width: 870px;
         height: 10px;
         position: absolute;
         border-radius: 50%;
-        left: 50%;
+        left: 35%;
         top: 50%;
         margin-left: -5px;
         margin-top: -5px;
     }
 
     .circle .tick:nth-child(1) {
-        transform: rotate(0deg) ;
+        transform: rotate(0deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(2) {
-        transform: rotate(30deg) ;
+        transform: rotate(30deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(2) img {
-        transform: rotate(-30deg);
+        transform: rotate(-30deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(3) {
-        transform: rotate(60deg) ;
+        transform: rotate(60deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(3) img {
-        transform: rotate(-60deg);
+        transform: rotate(-60deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(4) {
-        transform: rotate(90deg) ;
+        transform: rotate(90deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(4) img {
-        transform: rotate(-90deg);
+        transform: rotate(-90deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(5) {
-        transform: rotate(120deg) ;
+        transform: rotate(120deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(5) img {
-        transform: rotate(-120deg);
+        transform: rotate(-120deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(6) {
-        transform: rotate(150deg) ;
+        transform: rotate(150deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(6) img {
-        transform: rotate(-150deg);
+        transform: rotate(-150deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(7) {
-        transform: rotate(180deg) ;
+        transform: rotate(180deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(7) img {
-        transform: rotate(-180deg);
+        transform: rotate(-180deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(8) {
-        transform: rotate(210deg) ;
+        transform: rotate(210deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(8) img {
-        transform: rotate(-210deg);
+        transform: rotate(-210deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(9) {
-        transform: rotate(240deg) ;
+        transform: rotate(240deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(9) img {
-        transform: rotate(-240deg);
+        transform: rotate(-240deg) translate(-50%, -50%);
     }
+
     .circle .tick:nth-child(10) {
-        transform: rotate(270deg) ;
+        transform: rotate(270deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(10) img {
-        transform: rotate(-270deg);
+        transform: rotate(-270deg) translate(-50%, -50%);
     }
+
     .circle .tick:nth-child(11) {
-        transform: rotate(300deg) ;
+        transform: rotate(300deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(11) img {
-        transform: rotate(-300deg);
+        transform: rotate(-300deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(12) {
-        transform: rotate(330deg) ;
+        transform: rotate(330deg) translate(-50%, -50%);
     }
     .circle .tick:nth-child(12) img {
-        transform: rotate(-330deg);
+        transform: rotate(-330deg) translate(-50%, -50%);
     }
 
 
  
- audio, audio::-webkit-media-controls-panel,
- video::-webkit-media-controls-panel {
-    background-color: rgb(156, 51, 201);
-
-    position: fixed;
-    bottom: 0;
-    height: 40px;
-    width: 200px;
-    border-radius: 7px;
-    cursor: pointer;
+    audio, audio::-webkit-media-controls-panel,
+    video::-webkit-media-controls-panel {
+        background-color: rgb(156, 51, 201);
+        color: rgb(239, 239, 247);
+        background-image: linear-gradient(rgb(68, 47, 173), rgb(123, 47, 173)) ;
+        opacity: .8;
+        position: fixed;
+        bottom: 0;
+        height: 40px;
+        width: 300px;
+        border-radius: 7px;
+        cursor: pointer;
 }
