@@ -4,8 +4,6 @@ fetch("http://localhost:3000/zodiacs")
     .then(response => response.json())
     .then(zodiacs => zodiacs.forEach(zodiac => {
         displayZodiac(zodiac)
-        
-
 }))
 
 function displayZodiac(zodiac){
@@ -59,7 +57,6 @@ function displayZodiac(zodiac){
         $zodiacCard.innerHTML = ""
     }
 
-    
     function clickEvent(){
         fetch(url, {
         "method": "POST",
