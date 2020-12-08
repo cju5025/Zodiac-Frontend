@@ -113,8 +113,8 @@ input {
     font-weight: 900;
     color: azure;
     position: absolute;
-    top: 35%;
-    left: 50%;
+    top: 29%;
+    left: 43%;
     width: 18rem;
 }
 
@@ -205,13 +205,14 @@ input {
     1px 1px 0 #000;
 }
 
-/* .circle {
+.circle {
+    width: 100%;
     height: 75%;
     margin-top: 4rem;
     margin-right: 10rem;
     display: flex;
     position: absolute;
-} */
+}
 
 img {
     width: 80px;
@@ -225,86 +226,86 @@ img {
 }
 
     .circle .tick {
-        width: 870px;
+        width: 678px;
         height: 10px;
         position: absolute;
-        border-radius: 50%;
-        left: 35%;
-        top: 50%;
+        border-radius: 0%;
+        left: 26%;
+        top: 56%;
         margin-left: -5px;
         margin-top: -5px;
     }
 
     .circle .tick:nth-child(1) {
-        transform: rotate(0deg) translate(-50%, -50%);
+        transform: rotate(0deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(2) {
-        transform: rotate(30deg) translate(-50%, -50%);
+        transform: rotate(30deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(2) img {
-        transform: rotate(-30deg) translate(-50%, -50%);
+        transform: rotate(-30deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(3) {
-        transform: rotate(60deg) translate(-50%, -50%);
+        transform: rotate(60deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(3) img {
-        transform: rotate(-60deg) translate(-50%, -50%);
+        transform: rotate(-60deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(4) {
-        transform: rotate(90deg) translate(-50%, -50%);
+        transform: rotate(90deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(4) img {
-        transform: rotate(-90deg) translate(-50%, -50%);
+        transform: rotate(-90deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(5) {
-        transform: rotate(120deg) translate(-50%, -50%);
+        transform: rotate(120deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(5) img {
-        transform: rotate(-120deg) translate(-50%, -50%);
+        transform: rotate(-120deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(6) {
-        transform: rotate(150deg) translate(-50%, -50%);
+        transform: rotate(150deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(6) img {
-        transform: rotate(-150deg) translate(-50%, -50%);
+        transform: rotate(-150deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(7) {
-        transform: rotate(180deg) translate(-50%, -50%);
+        transform: rotate(180deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(7) img {
-        transform: rotate(-180deg) translate(-50%, -50%);
+        transform: rotate(-180deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(8) {
-        transform: rotate(210deg) translate(-50%, -50%);
+        transform: rotate(210deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(8) img {
-        transform: rotate(-210deg) translate(-50%, -50%);
+        transform: rotate(-210deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(9) {
-        transform: rotate(240deg) translate(-50%, -50%);
+        transform: rotate(240deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(9) img {
-        transform: rotate(-240deg) translate(-50%, -50%);
+        transform: rotate(-240deg) translate(0%, 0%);
     }
 
     .circle .tick:nth-child(10) {
-        transform: rotate(270deg) translate(-50%, -50%);
+        transform: rotate(270deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(10) img {
-        transform: rotate(-270deg) translate(-50%, -50%);
+        transform: rotate(-270deg) translate(0%, 0%);
     }
 
     .circle .tick:nth-child(11) {
-        transform: rotate(300deg) translate(-50%, -50%);
+        transform: rotate(300deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(11) img {
-        transform: rotate(-300deg) translate(-50%, -50%);
+        transform: rotate(-300deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(12) {
-        transform: rotate(330deg) translate(-50%, -50%);
+        transform: rotate(330deg) translate(0%, 0%);
     }
     .circle .tick:nth-child(12) img {
-        transform: rotate(-330deg) translate(-50%, -50%);
+        transform: rotate(-330deg) translate(0%, 0%);
     }
 
 
