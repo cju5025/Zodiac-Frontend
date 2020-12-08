@@ -4,6 +4,9 @@ ZodiHack is a webpage designed to read a given zodiac sign's horoscope for the c
 
 * https://github.com/cju5025/Zodiac-Backend
 
+## Video Demonstration
+https://youtu.be/U7sj0LYnTHs
+
 ## Technologies Used
 
 * Javascript
