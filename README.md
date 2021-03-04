@@ -2,10 +2,11 @@
 
 ZodiHack is a webpage designed to read a given zodiac sign's horoscope for the current date as well as the day prior and the day after. Note that this is only the frontend portion of a full stack project. See below for link to backend repository.
 
-Check out my blog post on adding audio to your vanilla javascript apps here-
-* https://alexandermgabriel.medium.com/adding-audio-to-a-html-webpage-e19c8cb72705
-
 * https://github.com/cju5025/Zodiac-Backend
+
+
+Check out Alex's blog post on adding audio to your vanilla javascript apps here:
+* https://alexandermgabriel.medium.com/adding-audio-to-a-html-webpage-e19c8cb72705
 
 ## Video Demonstration
 https://youtu.be/U7sj0LYnTHs
